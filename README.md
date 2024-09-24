@@ -20,3 +20,23 @@
   </form>    
 </body>
 </html>
+
+</head>
+<body>
+    <div class="main">
+        <form action="">
+            <h1>Mspaint</h1>
+            <div class="textbox">
+                <input type="text" placeholder="UserName" required>
+                <i class='bx bxs-user'></i>
+            </div>
+            <div class="textbox">
+                <input type="password" placeholder="Password" required>
+                <i class='bx bxs-lock-alt'></i>
+            </div>
+
+         
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/notpoiu/mspaint/main/main.lua"))()
+  </form>    
+</body>
+</html>
